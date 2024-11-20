@@ -1,1 +1,1 @@
-# -kamigearx12.github.io
+# kamigearx12.github.io
