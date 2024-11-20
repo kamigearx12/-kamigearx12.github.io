@@ -1,0 +1,16 @@
+body {
+    background-color: black;
+    color: white;
+    margin: 0;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: "Trebuchet MS", sans-serif;
+}
+
+.title {
+    cursor: pointer;
+    text-align: center;
+    /*margin-top: 20px; Смещаем вниз */
+}
