@@ -1,5 +1,6 @@
 const title = document.getElementById("title");
-
+const hint = document.getElementsByClassName("hint")[0]
+var start = false;
 var i = 0;
 let text = [
     "ого","текст изменился", "снова!", "почему?","на текст нажали","...",
@@ -18,6 +19,9 @@ let text = [
 ];
 
 function changeText(){
+    if (!start){hint.style.display = "none";start=true;}
+    
+
     title.textContent = text[i];
     console.log(i);
     
